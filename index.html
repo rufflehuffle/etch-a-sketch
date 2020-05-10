@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <div id="grid-container"></div>
+        <button onclick="toggleGridSettings()">Grid Settings</button>
+        <div id="grid-settings">
+            Grid Size: <input type="text" id="grid-size">
+            <button onclick="changeGridSize()">Save Settings</button>
+            <p style="color:red">Warning: saving settings clears the canvas.</p>
+        </div>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
